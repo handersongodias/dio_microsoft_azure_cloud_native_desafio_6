@@ -9,7 +9,7 @@ Este projeto foi desenvolvido no portal Azure
 -  Criar uma aplicação que simula a reserva e aluguel de carro
 -  Criar e configurar o ServiceBus para receber e enviar as requisições
 -  Criar e codificar azures functions
--  criar API com nodejs
+-  criar API com nodejs, codificação com C# para as functions
 
  
 ---
@@ -26,6 +26,7 @@ Este projeto foi desenvolvido no portal Azure
 - nodejs
 - key vault
 - docker
+- visual studio
 
 
 ---

@@ -25,21 +25,20 @@ Este projeto foi desenvolvido no portal Azure
 - cosmosdb
 - nodejs
 - docker
-- valt
+- key valt
 
 ---
 
 ### 1. Acessar o portal azure
-    Seguir os passos de criação do servicebus
     Acessar o portal azure, selecionar     
     criar o rg,
     criar serviceBus e fila
-    criar um container registry ACR,
-    criar um container app,
+    criar container registry ACR,
+    criar container app,
     criar as functions app,
     criar banco de dados azure sql,
     criar cosmosdb   
-    criar valt 
+    criar key valt 
     criar logic app
     
     

@@ -24,8 +24,9 @@ Este projeto foi desenvolvido no portal Azure
 - azure sql
 - cosmosdb
 - nodejs
+- key vault
 - docker
-- key valt
+
 
 ---
 
@@ -37,9 +38,9 @@ Este projeto foi desenvolvido no portal Azure
     criar container app,
     criar as functions app,
     criar banco de dados azure sql,
-    criar cosmosdb   
-    criar key valt 
+    criar cosmosdb       
     criar logic app
+    criar key vault
     
     
 ### 3. Codificar 

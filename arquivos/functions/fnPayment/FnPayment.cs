@@ -4,7 +4,6 @@ using System.Linq.Expressions;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Azure.Messaging.ServiceBus;
-using fnPayment.Model;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
@@ -15,7 +14,7 @@ public class fnPayment
 {
     private readonly ILogger<fnPayment> _logger;
     private readonly IConfiguration _configuration;
-    private readonly string[] StatusList = { "Aprovado", "Reprovado", "Em an·lise" };
+    private readonly string[] StatusList = { "Aprovado", "Reprovado", "Em an√°lise" };
     private readonly Random random = new Random();
 
 
@@ -99,11 +98,11 @@ public class fnPayment
         try
         {
             await sender.SendMessageAsync(message);
-            _logger.LogInformation("Mensagem de notificaÁ„o enviada para a fila: {id}",payment.IdPayment.ToString());
+            _logger.LogInformation("Mensagem de notifica√ß√£o enviada para a fila: {id}",payment.IdPayment.ToString());
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Error ao enviar a mensagem de notificaÁ„o na fila");
+            _logger.LogError(ex, "Error ao enviar a mensagem de notifica√ß√£o na fila");
             throw;
         }
         finally

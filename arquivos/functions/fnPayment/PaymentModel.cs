@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace fnPayment.Model
+namespace fnPayment
 {
     internal class PaymentModel
     {
